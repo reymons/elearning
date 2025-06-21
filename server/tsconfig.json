@@ -7,11 +7,13 @@
         "baseUrl": ".",
         "outDir": "./build",
         "esModuleInterop": true,
+        "isolatedModules": true,
         "forceConsistentCasingInFileNames": true,
         "strict": true,
         "strictPropertyInitialization": false,
         "skipLibCheck": true,
         "noImplicitThis": false,
+        "types": ["jest"],
         "paths": {
             "@/*": [
                 "./src/*"

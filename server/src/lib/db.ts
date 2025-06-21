@@ -1,7 +1,7 @@
 import { DB } from "@/config/env";
-import pgPromise from "pg-promise";
+import pgp from "pg-promise";
 
-export const db = pgPromise()({
+export const db = pgp()({
     host: DB.HOST,
     port: DB.PORT,
     database: DB.NAME,
